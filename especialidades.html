@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos - Caimed S.A.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Nav -->
+<nav class="nav">
+  <div class="logo">Caimed</div>
+  <div class="menu-toggle" id="toggle">&#9776;</div>
+  <ul id="nav-links">
+    <li><a href="index.html#inicio">Inicio</a></li>
+    <li><a href="especialidades.html">Especialidades</a></li>
+    <li><a href="index.html#contacto">Contacto</a></li>
+  </ul>
+</nav>
+
+<!-- Header -->
+<div class="header" id="productos">
+  <img src="img/logocaimed.PNG" alt="Logo">
+  <h1>Especialidades</h1>
+</div>
+
+<!-- Galería de marcas -->
+<div class="productos-galeria">
+  <div class="producto">
+    <img src="img/maxilofacial.png" alt="Maxilofacial">
+    <h3>Maxilofacial</h3>
+    <a class="boton-rojo" href="Productos/maxilofacial.html">Ver productos</a>
+  </div>
+
+  <div class="producto">
+    <img src="img/neurocirugia.png" alt="Neurocirugía">
+    <h3>Neurocirugía</h3>
+    <a class="boton-rojo" href="Productos/neurocirugia.html">Ver productos</a>
+  </div>
+
+  <div class="producto">
+    <img src="img/traumatologia.png" alt="Traumatología">
+    <h3>Traumatología</h3>
+    <a class="boton-rojo" href="Productos/traumatologia.html">Ver productos</a>
+  </div>
+
+  <div class="producto">
+    <img src="img/heridas.png" alt="Manejo de Heridas">
+    <h3>Manejo de Heridas</h3>
+    <a class="boton-rojo" href="Productos/heridas.html">Ver productos</a>
+  </div>
+</div> <!-- CIERRE del div productos-galeria -->
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 Caimed S.A. Todos los derechos reservados.</p>
+</footer>
+
+<script>
+  const toggle = document.getElementById('toggle');
+  const navLinks = document.getElementById('nav-links');
+  toggle.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+</script>
+
+</body>
+</html>
